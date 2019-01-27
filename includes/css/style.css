@@ -1,0 +1,59 @@
+#mainNav {
+    border-bottom: 1px solid rgba(33,37,41,.1);
+    background-color: transparent;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+} 
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff !important;
+    font-family: 'Open Sans';
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #00a8ff !important;
+}
+
+.mainHeader {
+    height: 100vh;
+    min-width: 775px;
+    padding: 200px 0;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/mainHeader.jpg);
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center
+}
+
+.company-title {
+    color: #00a8ff;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Lato', sans-serif;
+}
+
+.company-slogan {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    font-size: 2.5em;
+    font-style: italic;
+}
+
+.custom-hr {
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #00a8ff;
+}
+
+.btn-custom {
+    font-weight: bold;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 300px;
+    font-family: 'Open Sans';
+    line-height: 3;
+    background: #fff;
+    color: #00a8ff;
+    letter-spacing: 2px;
+}
