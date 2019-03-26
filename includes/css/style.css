@@ -1,17 +1,43 @@
-#mainNav {
-    border-bottom: 1px solid rgba(33,37,41,.1);
-    background-color: transparent;
-    -webkit-transition: all .2s;
-    transition: all .2s;
-} 
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
-.navbar-default .navbar-nav > li > a {
-    color: #fff !important;
-    font-family: 'Open Sans';
+.text-gray {
+    color: rgb(122, 122, 122);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.9375rem;
+}  
+
+.navbar-nav > li > a {
+    color: #f1f1f1 !important;
+    font-family: 'Raleway', sans-serif !important;
+    text-transform: uppercase !important;
+    font-size: 0.9rem;
+    transition: all .5s ease-in-out;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-    color: #00a8ff !important;
+.navbar-nav > li > a:hover {
+    background-color: transparent !important;    
+}
+
+.navbar-nav > li > a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #00a8ff;
+    transition: .3s width ease-in;
+}
+
+.navbar-nav > li > a:hover::after {
+    width: 100%;
 }
 
 .mainHeader {
@@ -29,31 +55,29 @@
     color: #00a8ff;
     font-weight: bold;
     font-size: 2em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
-.company-slogan {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.5;
-    font-size: 2.5em;
-    font-style: italic;
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
 }
 
-.custom-hr {
-    max-width: 50px;
-    border-width: 3px;
-    border-color: #00a8ff;
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.btn-custom {
-    font-weight: bold;
-    padding: 1em 2em;
-    text-transform: uppercase;
-    border: 2px solid #fff;
-    border-radius: 300px;
-    font-family: 'Open Sans';
-    line-height: 3;
-    background: #fff;
-    color: #00a8ff;
-    letter-spacing: 2px;
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
