@@ -33,7 +33,7 @@
 
 .navbar-nav > li > a {
     color: #000 !important;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase !important;
     font-size: 0.7rem;
     font-weight: 600;
@@ -65,7 +65,7 @@
     color: #00a8ff;
     font-weight: bold;
     font-size: 2em;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .footer-section {
@@ -78,7 +78,7 @@
 
 .header-title {
     display: block;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: none;
     font-weight: 700;
     font-style: normal;
@@ -113,7 +113,7 @@
 .section-container {
     padding: 50px 20px;
     font-size: 0.9em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'EB Garamond', serif;
 
 }
 
@@ -122,6 +122,7 @@
     font-size: 36px;
     line-height: 1.25;
     color: #00a8ff;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .padding-left {
@@ -387,6 +388,7 @@ ul, ol {
     text-transform:capitalize;
     margin:0 0 3px;
     color:rgba(0,0,0,.5);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .product-grid9 .title:hover {
@@ -458,7 +460,7 @@ ul, ol {
     text-transform:capitalize;
     font-size: 0.8rem;
     letter-spacing: 1px;
-    font-family: 'Raleway', sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 
 .product-image-desc {
@@ -468,7 +470,9 @@ ul, ol {
     line-height: 1.5;
     word-spacing: 1px;
     color: #fff !important;
+    font-family: 'EB Garamond', serif;
 }
+
 .card-client_container
 {
 	width:100%;
@@ -479,7 +483,8 @@ ul, ol {
 	overflow:hidden;
 	position:relative;
 	transition:0.5s;
-	margin-bottom:28px;
+    margin-bottom:28px;
+    font-family: 'EB Garamond', serif;
 }
 
 .card-client_container img {
@@ -491,13 +496,14 @@ ul, ol {
 .no-logo {
     font-size:2.2rem;
     font-weight:700;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .back-card_heading {
     font-size:2.2rem;
     font-weight:700;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .back-card {
