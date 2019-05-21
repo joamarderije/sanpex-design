@@ -8,6 +8,12 @@
     background-size: cover;
 }
 
+.img-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media only screen and (max-width: 600px) {
     .carousel-item {
         height: 50vh !important;

@@ -63,7 +63,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Message: ".clean_string($message)."\n";
  
 // create email headers
-$headers = 'From: '.$email_from."\r\n".
+$headers = 'From: no-reply@sanpexcorporation.com' . "\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);  
