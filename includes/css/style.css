@@ -278,8 +278,8 @@ ul, ol {
     position: relative;
     background-image: url(../img/clients.jpeg);
     background-repeat: no-repeat;
-    background-size: 35% 100%;
-    background-position: left center;
+    background-size: cover;
+    background-position: center center;
     color: #fff;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -289,8 +289,8 @@ ul, ol {
     position: relative;
     background-image: url(../img/contact.jpg);
     background-repeat: no-repeat;
-    background-size: 35% 100%;
-    background-position: left center;
+    background-size: cover;
+    background-position: top center;
     color: #fff;
     padding-top: 80px;
     padding-bottom: 80px;
